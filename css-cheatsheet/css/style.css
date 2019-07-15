@@ -1,0 +1,234 @@
+/*
+*{
+    margin:0;
+    padding:0;
+}*/
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color:green;
+}
+
+a:active{
+    color:pink;
+}
+/*
+a:visited{
+    color:black;
+}*/
+
+.clr{
+    clear:both;
+}
+
+body {
+    background-color:#f4f4f4;
+    color:#555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:normal;
+
+    /*Same as above */
+    font: normal 12px Arial, Helvetica, sans-serif;
+
+    line-height:2em;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.button{
+    background-color:#333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+}
+
+.button:hover{
+    background:green;
+    color:#fff;
+}
+
+.box-1{
+    background-color:#f4f4f4;
+    color:#555555;
+
+    border-right:5px red solid;
+    border-left:5px red solid;
+    border-top:5px red solid;
+    border-bottom: 5px red solid;
+
+    /* Same as above */
+    border: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style:double;
+
+    border: 5px #ccc dotted;
+
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:10px;
+    padding-left:10px;
+
+    padding:10px;
+    margin-top:20px;
+    margin:20px 0;
+
+    text-align: center;
+
+    border-radius:15px;
+}
+
+.box-1 h1{
+    color: #555555;
+    font-family:Tahoma;
+    font-weight:800;
+    font-style:italic;
+    text-decoration:underline;
+    text-transform:uppercase;
+    letter-spacing:0.2em;
+    word-spacing: 1em;
+}
+
+.monika-pics {
+    margin:1% 1%;
+    margin-left:auto;
+    margin-right:auto;
+    width:25%;
+}
+
+.categories{
+    border:1px #ccc solid;
+    padding:10px;
+    border-radius:15px;
+    float:center;
+}
+
+.categories h2{
+    text-align:center;
+}
+
+.categories ul {
+    padding:0;
+    list-style:none;
+    padding-left:20px;
+}
+
+.categories li{
+    padding-bottom:6px;
+    border-bottom:dotted 1px #333;
+    list-style-image:url('../images/monika.jpg')
+
+}
+
+.my-form{
+    padding:20px;
+}
+
+.my-form .form-group{
+    padding-bottom:15px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width:100%;
+}
+.my-form h2{
+    margin-top:20px;
+}
+
+/*
+.my-form input[type="submit"]{
+    background-color:#333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+}*/
+
+.block{
+    float:left;
+    width:30%;
+    margin: 1% 1%;
+    padding:10px;
+    border:1px solid #ccc;
+    box-sizing:border-box; /* makes padding and border part of width */
+}
+
+#main-block{
+    float:left;
+    width:70%;
+    padding:15px;
+    box-sizing:border-box;
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    background-color:#333;
+    color:#fff;
+    padding:15px;
+    box-sizing:border-box;
+}
+
+.p-box{
+    width:800px;
+    height:700px;
+    border:1px solid #000;
+    margin-top:30px;
+    position:relative;
+    background-image:url('../images/monika-pregnant.jpg');
+    background-position:0px 0px;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+.p-box h1{
+    position:absolute;
+    top:40px;
+    left:200px;
+}
+
+.p-box h2{
+    position:absolute;
+    color:#333;
+    bottom:150px;
+    right:30px;
+}
+
+.fix-me{
+    position:fixed;
+    top:400px;
+}
+
+/* Pseudo elements */
+.my-list li:first-child{
+    background: pink;
+}
+
+.my-list li:last-child{
+    background: pink;
+}
+
+.my-list li:nth-child(5){
+    background:pink;
+}
+
+.my-list li:nth-child(even){
+    background:plum;
+}
+.my-list li:nth-child(odd){
+    background:pink;
+}
